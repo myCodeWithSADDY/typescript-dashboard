@@ -5,12 +5,6 @@ import Menu from "../../../Helpers/Menu";
 import { treat } from "../../../utility/dataseeder";
 
 const Treatment = () => {
-  const [isMobileOpen, setMobileOpen] = useState<boolean>(false);
-
-  const toggleMobileDrawer = () => {
-    setMobileOpen(!isMobileOpen);
-  };
-
   return (
     <Grid
       container

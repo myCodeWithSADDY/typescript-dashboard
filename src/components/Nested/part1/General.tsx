@@ -1,4 +1,3 @@
-import React from "react";
 import Menu from "../../../Helpers/Menu";
 import { simple } from "../../../utility/dataseeder";
 const General = () => {

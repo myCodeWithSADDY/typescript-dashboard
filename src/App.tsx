@@ -14,7 +14,6 @@ import Treatment from "./components/Nested/part1/Treatment";
 import HairRemoval from "./components/Nested/part2/HairRemoval";
 import Injectables from "./components/Nested/part2/Injectables";
 import PlasticSurgery from "./components/Nested/part2/PlasticSurgery";
-import SkinImprovement from "./components/Nested/part2/SkinImprovement";
 import SoftSurgery from "./components/Nested/part2/SoftSurgery";
 import Form from "./Helpers/Form";
 
@@ -66,11 +65,11 @@ const App = () => {
                 },
                 {
                   path: "formsubmit", // Updated path here
-                  element: <Form />,
+                  element: <Form title="" />,
                   children: [
                     {
                       path: "formsubmit", // This renders the Form component at /settings/treatment/formsubmit
-                      element: <Form />,
+                      element: <Form title="" />,
                     },
                   ],
                 },

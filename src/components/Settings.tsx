@@ -1,16 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Grid, Stack, Typography } from "@mui/material";
 import { Outlet } from "react-router-dom";
 import Menu from "../Helpers/Menu";
 import { nest1 } from "../utility/dataseeder";
 
 const Setting = () => {
-  const [isMobileOpen, setMobileOpen] = useState<boolean>(false);
-
-  const toggleMobileDrawer = () => {
-    setMobileOpen(!isMobileOpen);
-  };
-
   return (
     <Grid
       container
